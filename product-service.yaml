@@ -1,0 +1,21 @@
+server:
+  port: 8090
+
+eureka:
+  client:
+    enabled: true
+    service-url.defaultZone: http://localhost:7000/eureka/
+
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      myService:
+        sliding-window-size: 5
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        permitted-number-of-calls-in-half-open-state: 3
