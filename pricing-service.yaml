@@ -16,7 +16,8 @@ management:
       exposure:
         include: refresh
         
-message: hello from git, new version again
+message: hello from git, fixed
+
 
 
 
