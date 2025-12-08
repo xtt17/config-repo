@@ -14,8 +14,10 @@ management:
   endpoints:  
     web:
       exposure:
-        include: "*"
+        include: refresh
+        
 message: hello from git, new version
+
 
 
 
