@@ -1,6 +1,10 @@
 server:
   port: 8091
 
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
 eureka:
   client:
     enabled: true
@@ -12,6 +16,7 @@ management:
       exposure:
         include: "*"
 message: hello from git, new version
+
 
 
 
