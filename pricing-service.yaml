@@ -6,8 +6,9 @@ eureka:
     enabled: true
     service-url.defaultZone: http://localhost:7000/eureka/
 
-management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.include:*
 message: hello from git, new version
+
 
 
 
