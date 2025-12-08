@@ -6,4 +6,5 @@ eureka:
     enabled: true
     service-url.defaultZone: http://localhost:7000/eureka/
 
-message: hello from git
+message: hello from git, new version
+
